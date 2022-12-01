@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if _name_ == "_main_":
+if __name__ == "__main__":
     from sys import argv
     userin = argv[1:]
     size = len(userin)
@@ -8,4 +8,4 @@ if _name_ == "_main_":
                  "arguments" if (size) != 1 else "argument",
                  "." if (size) == 0 else ":"))
     for idx, arg in enumerate(userin):
-        print("{:d}: {:s}".format(idx + 1, arg))
+        print("{:d}: {:s}".format(idx + 1, arg))
