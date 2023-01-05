@@ -1,4 +1,4 @@
-# run test with python3 -m doctest -v ./tests/101-lazy_matrix_mul.txt
+t with python3 -m doctest -v ./tests/101-lazy_matrix_mul.txt
 
 First import method to test
 >>> lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
