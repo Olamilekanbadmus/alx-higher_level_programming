@@ -24,4 +24,3 @@ if __name__ == "__main__":
             print("No result")
     except ValueError as e:
         print("Not a valid JSON")
-
